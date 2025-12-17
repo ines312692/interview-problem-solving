@@ -439,6 +439,13 @@ len(lst)    min(lst)    max(lst)    sum(lst)
 [x*2 for x in lst]    list(map(func, lst))    list(filter(func, lst))
 ```
 
+```python
+nums = [1, 5, 2, 1, 3, 2, 5, 1]
+
+set(nums)        # {1, 2, 3, 5} - garde uniquement les uniques
+len(nums)        # 8
+len(set(nums))   # 4
+```
 ---
 
 ## License
